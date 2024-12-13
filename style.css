@@ -1,0 +1,161 @@
+body{
+    font-family: 'DotGothic16', sans-serif;
+}
+.container{
+   background-color: #fff;
+   display: flex;
+   min-height: 900px;
+  flex-direction: column;
+  padding: 0 48px;
+}
+.nav-container{
+    width: 100%;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    background-color: white;
+    
+}
+.navbar{
+    background-color:rgba(36, 25, 243, 0.06);
+    padding: 24px 32px;
+    width: 1080px;
+    height: 72px;
+    border: 1pxs solid;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.16);
+    justify-content: space-between;
+
+
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Archivo', sans-serif;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    left: 50%;
+    right: 50%;
+    font-family: 'DotGothic16', sans-serif;
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+    transition: all 250ms ease-in-out;
+    text-decoration: none;
+    
+}
+li a:hover{
+    color: rgb(121, 70, 7);
+    font-size: 25px;
+    
+    
+}
+.main-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 48px 0;
+}
+  
+.main-section{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: #000;
+    text-align: center;
+    letter-spacing: -2%;
+    padding: 96px 0;
+    font-size:120px;
+    line-height:140%;
+    font-weight: 400;
+
+}
+  
+.main-title{
+    margin: 0;
+}
+  
+.main-image {
+    width: 100%;
+    margin-top: 48px;
+    border-radius: 10px;
+    border:1.5px solid rgb(242, 214, 32);
+}
+  
+.about-section{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: #000;
+    letter-spacing: -1.28px;
+    padding: 200px 0 96px;
+    font: 400 64px/68px DotGothic16, sans-serif;
+}
+  
+.about-image{
+    width: 100%;
+    margin-top: 96px;
+    border-radius: 10px;
+    border:1.5px solid rgb(242, 214, 32);
+}
+  
+.portfolio-grid{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Archivo, sans-serif;
+    color: #000000;
+}
+  
+.portfolio-row{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    gap: 40px 48px;
+    padding: 48px 0;
+    flex-wrap: wrap;
+}
+  
+.portfolio-item{
+    min-width: 240px;
+    min-height: 333px;
+    flex:1;
+}
+  
+.portfolio-image{
+    border-radius: 10px;
+    width: 100%;
+    flex: 1;
+    transition: all 0.2s ease-out;
+    border:1.5px solid rgb(242, 214, 32);
+}
+.portfolio-image:hover{
+    transform: scale(1.05);
+}
+.portfolio-title {
+    font-size: 20px;
+    line-height: 24px;
+}
+  
+.work{
+    font-size: 17px;
+    line-height: 24px;
+}
+  
